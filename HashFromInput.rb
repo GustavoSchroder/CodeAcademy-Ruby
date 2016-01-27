@@ -10,5 +10,5 @@ frequencies = frequencies.sort_by { |word, count| count }
 
 frequencies.reverse!
 
-frequencies.each { |word, frequency| puts word + ": " + frequency.to_s //to String == to_s
+frequencies.each { |word, frequency| puts word + ": " + frequency.to_s #to String == to_s
 }
